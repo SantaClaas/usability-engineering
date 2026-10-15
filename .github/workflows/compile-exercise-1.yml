@@ -3,6 +3,12 @@ name: Compile Exercise 1
 on:
   workflow_dispatch:
   push:
+    branches: [main]
+    paths:
+      - "exercise-1/**"
+      - ".github/workflows/compile-exercise-1.yml"
+  # Compile pull requests to catch errors, but only deploy from main
+  pull_request:
     paths:
       - "exercise-1/**"
       - ".github/workflows/compile-exercise-1.yml"
@@ -14,7 +20,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -51,6 +57,7 @@ jobs:
           path: dist
 
   deploy-pages:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: exercise-1
     runs-on: ubuntu-latest
