@@ -1,0 +1,7 @@
+*.pdf
+
+# MacOS system files
+.DS_Store
+
+# No IDE settings
+.idea/

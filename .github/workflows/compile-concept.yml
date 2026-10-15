@@ -1,0 +1,61 @@
+name: Compile Concept Paper
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "concept/**"
+      - ".github/workflows/compile-concept.yml"
+
+# Required for actions/deploy-pages@v4 to obtain an OIDC token
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  compile-paper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Run compile
+        run: docker run --rm --mount type=bind,src="$PWD",dst=/work --workdir /work ghcr.io/typst/typst:latest compile concept/concept.typ concept.pdf
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: concept.pdf
+
+      - name: Prepare Pages artifact folder
+        run: |
+          mkdir -p dist
+          cp concept.pdf dist/concept.pdf
+          # optional: make it easier to browse by adding a simple index page
+          cat > dist/index.html <<'EOF'
+          <!doctype html>
+          <meta charset="utf-8" />
+          <title>Concept Paper</title>
+          <a href="concept.pdf" download="concept.pdf">concept.pdf</a>
+          EOF
+
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy-pages:
+    environment:
+      name: concept
+    runs-on: ubuntu-latest
+    needs: compile-paper
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
