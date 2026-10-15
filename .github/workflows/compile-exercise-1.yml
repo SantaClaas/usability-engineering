@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Run compile
         run: docker run --rm --mount type=bind,src="$PWD",dst=/work --workdir /work ghcr.io/typst/typst:latest compile exercise-1/exercise-1.typ exercise-1.pdf
