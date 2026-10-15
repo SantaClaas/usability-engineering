@@ -1,9 +1,9 @@
 # Usability Engineering
 
-The concept paper lives in [`concept/`](concept/) and is written in [Typst](https://typst.app).
+Exercise 1 lives in [`exercise-1/`](exercise-1/) and is written in [Typst](https://typst.app).
 
 ```bash
-typst watch concept/concept.typ concept.pdf
+typst watch exercise-1/exercise-1.typ exercise-1.pdf
 ```
 
-The [Compile Concept Paper](.github/workflows/compile-concept.yml) workflow builds the PDF on push and deploys it to GitHub Pages.
+The [Compile Exercise 1](.github/workflows/compile-exercise-1.yml) workflow builds the PDF on push and deploys it to GitHub Pages.

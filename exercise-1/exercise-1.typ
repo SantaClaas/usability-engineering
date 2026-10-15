@@ -10,7 +10,7 @@
   #par[
     #text(30pt)[Titel]
     #text(10pt)[#for _ in range(2) { linebreak() }]
-    #text(18pt)[Projektkonzept]
+    #text(18pt)[Übung 1]
     #text(10pt)[#for _ in range(2) { linebreak() }]
     #text(18pt)[Usability Engineering]
   ]

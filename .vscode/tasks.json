@@ -5,7 +5,7 @@
             "label": "Sync Zotero",
             "type": "shell",
             // TODO: replace the collection key with the Usability Engineering collection
-            "command": "curl -L 'http://127.0.0.1:23119/better-bibtex/export?/library;id:1/collection;key:3KPUAVZY/Usability%20Engineering.biblatex' -o concept/references.bib",
+            "command": "curl -L 'http://127.0.0.1:23119/better-bibtex/export?/library;id:1/collection;key:3KPUAVZY/Usability%20Engineering.biblatex' -o exercise-1/references.bib",
             "presentation": {
                 "reveal": "silent"
             }
