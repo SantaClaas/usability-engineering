@@ -68,15 +68,15 @@ Es werden zuerst die fünf Punkte der Usability dieser fiktiven Smartwatch erlä
 
 === 1. Erlernbarkeit (Learnability)
 // How easy is it for users to accomplish basic tasks the first time they encounter the design?
-Die Bedienung der Uhr lässt sich für Erstnutzer ohne experimentelles Herumtasten schwer bis unmöglich erahnen oder erlernen, da ohne Anleitung der kapazitive Knopf am Gehäuse wegen mangelnder Einkerbung schwer zu finden ist. Weitere Interaktionen lassen sich auch nur durch experimentelle Erkundung herausfinden, wodurch bei der Benutzung Fehler durch unvorhergesehenes Verhalten der Uhr auftreten kann.
-Nach ersten Öffnen des Listenmenüs lässt die Einheitlichkeit der Listeneinträge zudem nicht erahnen, ob ein Eintrag eine Funktion startet oder ein weiteres Untermenü öffnet. Dies kann erst bei erneuter Bedienung durch Erinnerung umgangen werden.
+Die Bedienung der Uhr lässt sich für Erstnutzer ohne experimentelles Herumtasten schwer bis unmöglich erahnen oder erlernen, da ohne Anleitung der kapazitive Knopf am Gehäuse wegen mangelnder Einkerbung schwer zu finden ist. Weitere Interaktionen lassen sich auch nur durch experimentelle Erkundung herausfinden, wodurch bei der Benutzung Fehler durch unvorhergesehenes Verhalten der Uhr auftreten können.
+Nach dem ersten Öffnen des Listenmenüs lässt die Einheitlichkeit der Listeneinträge zudem nicht erahnen, ob ein Eintrag eine Funktion startet oder ein weiteres Untermenü öffnet. Dies kann erst bei erneuter Bedienung durch Erinnerung umgangen werden.
 
 === 2. Effizienz (Efficiency)
 // Once users have learned the design, how quickly can they perform tasks?
-Die Erfordernis, drei Sekunden zu warten, um ein Untermenü zu öffnen oder eine Funktion zu starten, sorgt dafür, dass die Navigation durch die Oberfläche deutlich verlangsamt wird. Zudem erfordert das Warten auf den horizontalen Scrolleffekt für lange Textelemente zusätzliche Zeit, um einen Eintrag verstehen zu können. Bei Verpassen eines Eintrags durch zu schnelles Klicken des Knopfes muss noch einmal um die ganze Liste gegangen werden, was die Benutzung der Smartwatch verlangsamt und damit die Effizienz verschlechtert.
+Die Erfordernis, drei Sekunden zu warten, um ein Untermenü zu öffnen oder eine Funktion zu starten, sorgt dafür, dass die Navigation durch die Oberfläche deutlich verlangsamt wird. Zudem erfordert das Warten auf den horizontalen Scrolleffekt für lange Textelemente zusätzliche Zeit, um einen Eintrag verstehen zu können. Beim Verpassen eines Eintrags durch zu schnelles Klicken des Knopfes muss noch einmal um die ganze Liste gegangen werden, was die Benutzung der Smartwatch verlangsamt und damit die Effizienz verschlechtert.
 Der dreidimensionale Effekt, der weiter entfernte Einträge kleiner macht, erfordert zusätzlich mehr Zeit zum Erkennen der Einträge.
 
-Das schnelle Anzeigen der Uhrzeit ist bei Öffnen eines Menüs auch nicht möglich, da erst zehn Sekunden gewartet werden muss.
+Das schnelle Anzeigen der Uhrzeit ist beim Öffnen eines Menüs auch nicht möglich, da erst zehn Sekunden gewartet werden muss.
 
 === 3. Einprägsamkeit (Memorability)
 // When users return to the design after a period of not using it, how easily can they reestablish proficiency?
@@ -92,7 +92,7 @@ Zu langes Verweilen in einem Menü sorgt dafür, dass das Menü geschlossen wird
 
 Durch Neigung des Handgelenks kann der kapazitive Knopf versehentlich durch den Handrücken ausgelöst werden und Funktionen der Uhr starten oder ggf. Einstellungen ändern. Dies kann auch nur durch lange Navigation geändert werden.
 
-Feuchtigkeit und Nässe können zudem auch ein Auslösen des kapazitiven Knopfes verursachen und dafür sorgen, dass die Uhr unkontrolliert durch Menüs navigiert und Einstellungen ändert. Dadurch, dass es ständig ausgelöst wird, können auch Einstellungen geändert werden, denen sich Nutzende nicht bewusst waren und dadurch alle Einstellungen einmal durchgehen müssen.
+Feuchtigkeit und Nässe können zudem auch ein Auslösen des kapazitiven Knopfes verursachen und dafür sorgen, dass die Uhr unkontrolliert durch Menüs navigiert und Einstellungen ändert. Dadurch, dass er ständig ausgelöst wird, können auch Einstellungen geändert werden, denen sich Nutzende nicht bewusst waren und dadurch alle Einstellungen einmal durchgehen müssen.
 
 === 5. Zufriedenheit (Satisfaction)
 // How pleasant is it to use the design?
@@ -101,10 +101,10 @@ Das einförmige Design der Uhr könnte Nutzenden gefallen und Zufriedenheit veru
 == Utility
 Die Utility der Uhr ist gegeben, da sie die Uhrzeit anzeigt und verschiedene Funktionen einer Smartwatch in ihren Menüs anbietet. Sie ist höchstens etwas eingeschränkt, wenn länger gewartet werden muss, um die Uhrzeit anzuzeigen.
 == User Experience
-Nutzende werden wahrscheinlich von der Uhr enttäuscht sein, da sie ohne einen Touchscreen ausgeliefert wird wie bei Smartwatches üblich. Zudem bietet die Uhr viele verschiedene Frustrationsquellen und Umwege, die einer guten User Experience abträglich sind.
+Nutzende werden wahrscheinlich von der Uhr enttäuscht sein, da sie, anders als bei Smartwatches üblich, ohne einen Touchscreen ausgeliefert wird. Zudem bietet die Uhr viele verschiedene Frustrationsquellen und Umwege, die einer guten User Experience abträglich sind.
 Wenn die Uhr lediglich zum Erfahren der Uhrzeit genutzt wird, kann sie die Bedürfnisse der Nutzenden erfüllen.
 == Likeability
-In der Likeability bekommt die Uhr Abzüge wegen schlechten Effizienz in der Usability und besonders der Effizienz und einheitlichen Oberfläche.
+In der Likeability bekommt die Uhr Abzüge wegen der schlechten Effizienz in der Usability und besonders der Effizienz und einheitlichen Oberfläche.
 Allerdings könnte sie durch ihr minimalistisches Gehäuse punkten.
 
 
