@@ -108,37 +108,5 @@ In der Likeability bekommt die Uhr Abzüge wegen schlechten Effizienz in der Usa
 Allerdings könnte sie durch ihr minimalistisches Gehäuse punkten.
 
 
-#pagebreak()
-
-== Usability nach Nielsen
-
-Die Benutzeroberfläche der Uhr besteht aus Listen in denen, die einzelnen Funktionen der Uhr aufgelistet sind.
-
-== Kapazitive Knöpfe
-Durch mangelnde Bewegung eines kapazitiven Knopfes lässt sich der Auslösemoment, des Knopfes nur schwer ermitteln und damit die Dauer einer Druckgeste schwer einschätzen was zu Fehlern in der Bedienung sorgen kann und damit das Fehler
-
-=== 1. Erlernbarkeit
-// How easy is it for users to accomplish basic tasks the first time they encounter the design?
-Für Nutzende ist die Bedienung zur ersten Benutzung erschwert dadurch, dass sich die Funktion der Eingabetasten und Drehrads ändert jenachdem in welcher Orientierung sich die Uhr befindet.
-Wenn die Uhr ihre Orientierung um 180 Grad dreht, sodass der Drehknopf auf der linken Seite der Uhr zu finden ist, dann ändert der Drehknopf seine Wirkrichtung in der Software in die entgegengesetzte Richtung. Dies soll Nutzenden erlauben die Uhr zu tragen wie sie möchten aber sorgt bei Benutzung im liegen oder anderen nicht aufrechten Haltungen zu einer nicht vorhersehbaren Bedienung, welche zu Fehlern führt und damit das Fehler-Qualitätsattribut nach Nielsen verletzt.
-
-Eine zum Drehrad entgegengesetze Scroll-Bewegung in der Software sorgt zudem für schwere Erlernbarkeit, da dies entgegen der Scroll-Bewegung üblicher Software gesetzt ist.
-
-Wenn die Uhr aufrecht steht und das Drehrad auf der rechten seite der Uhr ist, dann erzeugt nach oben drehen einen Scroll nach unten .
-Am Rahmen der Uhr befinden sich am Rand kapazitive Knöpfe, die bei Anwinkelung vom Handgelenk durch versehentliche Berührungen, unerwünschte Aktionen in der Software auslösen. Diese kapazitiven Knöpfe können auch durch Nässe wie tropfen beim Waschen von Händen ausgelöst werden.
-=== 2. Efficiency
-// Once users have learned the design, how quickly can they perform tasks?
-=== 3. Memorability
-// When users return to the design after a period of not using it, how easily can they reestablish proficiency?
-=== 4. Errors
-// How many errors do users make, how severe are these errors, and how easily can they recover from the errors?
-Wechselnde Seiten für Bestätigen und Abbrechen sorgen für Fehler bei der Eingabe, da es regelmäßig mit er Gewohnheit bricht. Wenn angenommen wird, dass Nutzende nicht jeden Abfrage auswendig gelernt haben, dann erschweren sie auch die Effizienz, da für jede Abfrage von Nutzenden überprüft werden muss.
-=== 5. Satisfaction
-// How pleasant is it to use the design?
-
-== Utility
-== User Experience
-== Likeability
-
 // #pagebreak()
 // #bibliography("references.bib")
