@@ -53,7 +53,9 @@
 Im folgenden wird für die Übung 1 in Usability Engineering eine Smartwatch mit schlechter Eingabetechnik beschrieben.
 Dabei wird zuerst die Uhr und Eingabe beschrieben und anschließend die verschiedenen Kriterien aus der Aufgabe erläutert.
 
-Die für die Übung konzipierte fiktive Smartwatch besitzt keinen Touchscreen sonder lässt sich lediglich über einen kapazitiven Knopf an der rechten Seite bedienen. Die Benutzeroberfläche besteht aus einer langen Liste mit deutschen Textelementen, die aus dem Englischen übersetzt wurden wo sie kürzer sind und noch auf den Bildschirm passen. Im Deutschen jedoch sind sie zu lang und vom Bildschirm abgeschnitten und erfordern ein paar Sekunden Warten bis eine horizontale Scrollanimation gestartet wird, die den Rest des Textbausteins langsam über den Bildschirm scrollen lässt.
+Die für die Übung konzipierte fiktive Smartwatch besitzt keinen Touchscreen sonder lässt sich lediglich über einen kapazitiven Knopf an der rechten Seite bedienen.
+Aus Design-Gründen um ein einheitliches rundes Gehäuse für die Uhr zu erzeugen wurde auf eine Einkerbung um den kapazitiven Knopf zu ertasten ähnlich wie bei Apples AirPods Pro 3 verzichtet.
+Die Benutzeroberfläche besteht aus einer langen Liste mit deutschen Textelementen, die aus dem Englischen übersetzt wurden wo sie kürzer sind und noch auf den Bildschirm passen. Im Deutschen jedoch sind sie zu lang und vom Bildschirm abgeschnitten und erfordern ein paar Sekunden Warten bis eine horizontale Scrollanimation gestartet wird, die den Rest des Textbausteins langsam über den Bildschirm scrollen lässt.
 
 Alle Funktionen der Smartwatch lassen sich nur über diese Liste mit Untermenüs erreichen. Die Listeneinträge werden mit Textbeschreibungen unterschieden. Das Auswählen eines Listeneintrags startet eine Funktion oder öffnet ein Untermenü, welches wiederum aus einer Liste mit Unterlisten besteht. Die Auswahl eines Listeneintrags geschieht über dreisekündiges Drücken des kapazitiven Knopfes. Ein fünfsekündiges Drücken des Knopfes setzt die Uhr zurück und es muss von vorne gestartet werden. Durch kurzes Drücken des Knopfes kann in dem Listenmenü der nächste Eintrag ausgewählt werden. Dabei kann nur vorwärts in der Liste fortgeschritten werden. Um wieder vom Anfang zu starten muss entweder die Uhr zurückgesetzt werden durch fünfsekündiges halten des Knopfes oder es muss bis zum Ende der Liste durchgegangen werden, da nach Auswahl des letzten Eintrags die Liste wieder von vorne anfängt.
 // Text wird unlesbar
@@ -65,10 +67,25 @@ Die Benutzeroberfläche ist in Listenmenüs mit Untermenüs aufgeteilt. Um dabei
 Es werden zuerst die fünf Punkte der Usability dieser fiktiven Smartwatch erläutert bevor auf Utility, User Experience und Likeability eingegangen wird.
 
 === 1. Erlernbarkeit (Learnability)
+// How easy is it for users to accomplish basic tasks the first time they encounter the design?
+Die Bedienung der Uhr lässt sich für Erstnutzer ohne experimentelles herumtasten schwer bis unmöglich erahnen oder erlernen, da ohne Anleitung der kapazitive Knopf am Gehäuse wegen mangelnder Einkerbung schwer zu finden ist. Weitere Interaktionen lassen sich auch nur durch experimentelle Erkundung herausfinden wodurch bei der Benutzung Fehler durch unvorhergesehendes Verhalten der Uhr auftreten kann.
+Nach ersten öffnen des Listenmenüs lässt die Einheitlichkeit der Listeneinträge zudem nicht erahnen ob ein Eintrag eine Funktion startet oder ein weiteres Untermenü öffnet. Dies kann erst bei erneuter Bedienung durch Erinnerung umgangen werden.
+
 === 2. Effizienz (Efficiency)
+// Once users have learned the design, how quickly can they perform tasks?
+Die Erfordernis drei Sekunden zu warten um ein Untermenü zu öffnen oder eine Funktion zu starten sorgt dafür, dass die Navigation durch die Oberfläche deutlich verlangsamt wird. Zudem erfordert das Warten auf den horizontalen Scrolleffekt für lange Textelemente zusätzliche Zeit um einen Eintrag verstehen zu können. Bei verpassen eines Eintrags durch zu schnelles klicken des Knopfes muss nochmal einmal um die ganze Liste gegangen werden, was die Benutzung der Smartwatch verlangsamt und damit die Effizienz verschlechtert.
+Der dreidimensionale Effekt, der weiter entfernte Einträge kleiner macht, erfordert zusätzlich mehr Zeit zum erkennen der Einträge.
+
 === 3. Einprägsamkeit (Memorability)
+// When users return to the design after a period of not using it, how easily can they reestablish proficiency?
+Durch gleichaussehende Einträge in dem Listenmenü lässt sich nach einer Zeit der Nichtnutzung die Uhr schlechter bedienen da die Einträge nicht sehr einprägsam sind. Die Gleichförmigkeit des Gehäuses erschwert es zudem dann die Position des kapazitiven Knopfes wiederzufinden.
+
 === 4. Fehler (Errors)
+// How many errors do users make, how severe are these errors, and how easily can they recover from the errors?
+
 === 5. Zufriedenheit (Satisfaction)
+// How pleasant is it to use the design?
+
 
 
 #pagebreak()
