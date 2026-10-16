@@ -2,6 +2,7 @@
 // Fix fonts being set to times new roman in SVGs. This is not ideal as I want different fonts for different SVGs but it is better
 #show image: set text(font: "Arial")
 
+#set text(lang: "de")
 // #include "title.typ"
 
 // #align(center)[
@@ -41,7 +42,7 @@
 
 #figure(
   image("smartwatch.png", width: 100%),
-  caption: [Skizze der fiktiven Smartwatch],
+  caption: [Skizze der fiktiven Smartwatch mit Bedienungsanweisungen],
 ) <smartwatch>
 
 // Entwerfen Sie skizzenhaft (also visuell und gezeichnet) eine fiktive (also selbsterdachte) Smartwatch mit schlechter bzw. verbesserungswürdiger Eingabetechnik bzgl. des Interaktionsdesigns. (2P)
