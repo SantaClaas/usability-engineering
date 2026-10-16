@@ -1,4 +1,18 @@
-#set page(numbering: none)
+#set document(
+  title: "Usability Engineering – Übung 1",
+  author: "Claas Möhlmann",
+)
+
+#set page(
+  header: [
+    #set text(9pt)
+    Claas Möhlmann · 113366 · tgtp6192\@bht-berlin.de
+    #h(1fr)
+    Usability Engineering -- Übung 1
+  ],
+  numbering: "1",
+)
+
 // Fix fonts being set to times new roman in SVGs. This is not ideal as I want different fonts for different SVGs but it is better
 #show image: set text(font: "Arial")
 
