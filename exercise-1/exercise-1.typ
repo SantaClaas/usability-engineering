@@ -39,6 +39,11 @@
 
 = Usability Engineering -- Übung 1
 
+#figure(
+  image("smartwatch.png", width: 100%),
+  caption: [Skizze der fiktiven Smartwatch],
+) <smartwatch>
+
 // Entwerfen Sie skizzenhaft (also visuell und gezeichnet) eine fiktive (also selbsterdachte) Smartwatch mit schlechter bzw. verbesserungswürdiger Eingabetechnik bzgl. des Interaktionsdesigns. (2P)
 // Erläutern Sie eigenständig (und ohne KI-Hilfe) deren:
 
