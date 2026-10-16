@@ -55,11 +55,23 @@ Dabei wird zuerst die Uhr und Eingabe beschrieben und anschließend die verschie
 
 Die für die Übung konzipierte fiktive Smartwatch besitzt keinen Touchscreen sonder lässt sich lediglich über einen kapazitiven Knopf an der rechten Seite bedienen. Die Benutzeroberfläche besteht aus einer langen Liste mit deutschen Textelementen, die aus dem Englischen übersetzt wurden wo sie kürzer sind und noch auf den Bildschirm passen. Im Deutschen jedoch sind sie zu lang und vom Bildschirm abgeschnitten und erfordern ein paar Sekunden Warten bis eine horizontale Scrollanimation gestartet wird, die den Rest des Textbausteins langsam über den Bildschirm scrollen lässt.
 
-Alle Funktionen der Smartwatch lassen sich nur über diese Liste mit Untermenüs erreichen. Die Listeneinträge werden mit Textbeschreibungen unterschieden. Das Auswählen eines Listeneintrags startet eine Funktion oder öffnet ein Untermenü, welches wiederum aus einer Liste mit Unterlisten besteht. Die Auswahl eines Listeneintrags geschieht über dreisekündiges Drücken des kapazitiven Knopfes. Ein fünfsekündiges Drücken des Knopfes setzt die Uhr zurück und es muss von vorne gestartet werden. Durch kurzes Drücken des Knopfes kann in dem Listenmenü der nächste Eintrag ausgewählt werden. Dabei kann nur vorwärts in der Liste gegangen werden. Um wieder vom Anfang zu starten muss entweder die Uhr zurückgesetzt werden durch fünfsekündiges halten des Knopfes oder es muss bis zum Ende der Liste durchgegangen werden, da nach Auswahl des letzten Eintrags die Liste wieder von vorne anfängt.
+Alle Funktionen der Smartwatch lassen sich nur über diese Liste mit Untermenüs erreichen. Die Listeneinträge werden mit Textbeschreibungen unterschieden. Das Auswählen eines Listeneintrags startet eine Funktion oder öffnet ein Untermenü, welches wiederum aus einer Liste mit Unterlisten besteht. Die Auswahl eines Listeneintrags geschieht über dreisekündiges Drücken des kapazitiven Knopfes. Ein fünfsekündiges Drücken des Knopfes setzt die Uhr zurück und es muss von vorne gestartet werden. Durch kurzes Drücken des Knopfes kann in dem Listenmenü der nächste Eintrag ausgewählt werden. Dabei kann nur vorwärts in der Liste fortgeschritten werden. Um wieder vom Anfang zu starten muss entweder die Uhr zurückgesetzt werden durch fünfsekündiges halten des Knopfes oder es muss bis zum Ende der Liste durchgegangen werden, da nach Auswahl des letzten Eintrags die Liste wieder von vorne anfängt.
 // Text wird unlesbar
-Einträge, die weiter entfernt von dem ausgewählten Eintrag sind, werden dabei schrittweise kleiner anezeigt um einen Effekt der dreidimensionalität zu erzeugen.
+Einträge, die weiter entfernt von dem ausgewählten Eintrag sind, werden dabei schrittweise kleiner anezeigt um einen Effekt der Dreidimensionalität zu erzeugen.
 
 Die Benutzeroberfläche ist in Listenmenüs mit Untermenüs aufgeteilt. Um dabei von einem zu dem nächsten Eintrag zu wechseln muss  Um durch die Benutzeroberfläche der Smartwatch zu navigieren muss durch
+
+== Usability nach Nielsen
+Es werden zuerst die fünf Punkte der Usability dieser fiktiven Smartwatch erläutert bevor auf Utility, User Experience und Likeability eingegangen wird.
+
+=== 1. Erlernbarkeit (Learnability)
+=== 2. Effizienz (Efficiency)
+=== 3. Einprägsamkeit (Memorability)
+=== 4. Fehler (Errors)
+=== 5. Zufriedenheit (Satisfaction)
+
+
+#pagebreak()
 
 == Usability nach Nielsen
 
