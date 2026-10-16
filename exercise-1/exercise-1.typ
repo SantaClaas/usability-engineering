@@ -99,8 +99,13 @@ Feuchtigkeit und Nässe können zudem auch ein Auslösen des kapazitiven Knopfes
 Das einförmige Design der Uhr könnte Nutzenden gefallen und Zufriedenheit verursachen. Jedoch kann diese Zufriedenheit durch Kontrollverlust bei den genannten Fehlerfällen sinken und die Einheitlichkeit des Designs zur Schwierigkeit des Verständnisses beitragen und somit Unzufriedenheit verursachen.
 
 == Utility
+Die Utility der Uhr ist gegeben, da sie die Uhrzeit anzeigt und verschiedene Funktionen einer Smartwatch in ihren Menüs anbietet. Sie ist höchstens etwas eingeschränkt, wenn länger gewartet werden muss um die Uhrzeit anzuzeigen.
 == User Experience
+Nutzende werden wahrscheinlich von der Uhr enttäuscht sein, da sie ohne einen Touchscreen ausgeliefert wird wie bei Smartwatches üblich. Zudem bietet die Uhr viele verschiedene Frustrationsquellen und Umwege, die einer guten User Experience abträglich sind.
+Wenn die Uhr jediglich zum Erfahren der Uhrzeit genutzt wird kann sie die die Bedürfnisse der Ntuzenden erfüllen.
 == Likeability
+In der Likeability bekommt die Uhr Abzüge wegen schlechten Effizienz in der Usability und besonders der Effizienz und einheitlichen Oberfläche.
+Allerdings könnte sie durch ihr minimalistisches Gehäuse punkten.
 
 
 #pagebreak()
