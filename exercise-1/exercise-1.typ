@@ -61,7 +61,7 @@ Alle Funktionen der Smartwatch lassen sich nur über diese Liste mit Untermenüs
 // Text wird unlesbar
 Einträge, die weiter entfernt von dem ausgewählten Eintrag sind, werden dabei schrittweise kleiner anezeigt um einen Effekt der Dreidimensionalität zu erzeugen.
 
-Die Benutzeroberfläche ist in Listenmenüs mit Untermenüs aufgeteilt. Um dabei von einem zu dem nächsten Eintrag zu wechseln muss  Um durch die Benutzeroberfläche der Smartwatch zu navigieren muss durch
+Die Zeitanzeige wird nach zehn Sekunden inaktivität angezeigt.
 
 == Usability nach Nielsen
 Es werden zuerst die fünf Punkte der Usability dieser fiktiven Smartwatch erläutert bevor auf Utility, User Experience und Likeability eingegangen wird.
@@ -76,16 +76,31 @@ Nach ersten öffnen des Listenmenüs lässt die Einheitlichkeit der Listeneintr�
 Die Erfordernis drei Sekunden zu warten um ein Untermenü zu öffnen oder eine Funktion zu starten sorgt dafür, dass die Navigation durch die Oberfläche deutlich verlangsamt wird. Zudem erfordert das Warten auf den horizontalen Scrolleffekt für lange Textelemente zusätzliche Zeit um einen Eintrag verstehen zu können. Bei verpassen eines Eintrags durch zu schnelles klicken des Knopfes muss nochmal einmal um die ganze Liste gegangen werden, was die Benutzung der Smartwatch verlangsamt und damit die Effizienz verschlechtert.
 Der dreidimensionale Effekt, der weiter entfernte Einträge kleiner macht, erfordert zusätzlich mehr Zeit zum erkennen der Einträge.
 
+Das schnelle Anzeigen der Uhrzeit ist bei öffnen eines Menüs auch nicht möglich, da erst zehn Sekunden gewartet werden muss.
+
 === 3. Einprägsamkeit (Memorability)
 // When users return to the design after a period of not using it, how easily can they reestablish proficiency?
 Durch gleichaussehende Einträge in dem Listenmenü lässt sich nach einer Zeit der Nichtnutzung die Uhr schlechter bedienen da die Einträge nicht sehr einprägsam sind. Die Gleichförmigkeit des Gehäuses erschwert es zudem dann die Position des kapazitiven Knopfes wiederzufinden.
 
 === 4. Fehler (Errors)
 // How many errors do users make, how severe are these errors, and how easily can they recover from the errors?
+Wie bereits erwähnt sorgt ein versehentliches Überspringen eines Menüeintrags dafür, dass die Liste einmal komplett durchgegangen werden muss. Sollte ausversehen ein Untermenü geöffnet werden, dann muss die Uhr zurückgesetzt werden und wieder auf dem obersten Menüg gestartet werden. Dies verdoppelt schnell die benötigte Zeit bei Fehlern.
+
+Ein versehentliches zu langes Drücken von 5 statt 3 Sekunden sorgt zudem dafür, dass das Menü nochmal ohne Fehler durchgegangen werden muss um zu dem Ursprünglichen Eintrag zurückzukehren, da die Uhr zurückgesetzt wurde.
+
+Zu langes verweilen in einem Menü sorgt dafür, dass das Menüg geschlossen wird und die Uhrzeit angezeigt wird. Dies erfordert ein erneutes zeitaufwendiges Navigieren der Menüs.
+
+Durch Neigung des Handgelenks kann der kapazitive Knopf versehentlich durch den Handrücken ausgelöst werden und Funktionen der Uhr starten oder ggf. Einstellungen ändern. Dies kann auch nur durch lange Navigation geändert werden.
+
+Feuchtigkeit und Nässe können zudem auch ein Auslösen des kapazitiven Knopfes verursachen und dafür sorgen, dass die Uhr unkontrolliert durch Menüs navigiert und Einstellungen ändert. Dadurch, dass es ständig ausgelöst wird können auch Einstellungen geändert werden denen sich Nutznde nicht bewusst waren und dadurch alle Einstellungen einmal durchgehen müssen.
 
 === 5. Zufriedenheit (Satisfaction)
 // How pleasant is it to use the design?
+Das einförmige Design der Uhr könnte Nutzenden gefallen und Zufriedenheit verursachen. Jedoch kann diese Zufriedenheit durch Kontrollverlust bei den genannten Fehlerfällen sinken und die Einheitlichkeit des Designs zur Schwierigkeit des Verständnisses beitragen und somit Unzufriedenheit verursachen.
 
+== Utility
+== User Experience
+== Likeability
 
 
 #pagebreak()
