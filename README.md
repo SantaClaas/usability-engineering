@@ -1,9 +1,10 @@
 # Usability Engineering
 
-Exercise 1 lives in [`exercise-1/`](exercise-1/) and is written in [Typst](https://typst.app).
+Exercises live in [`exercise-1/`](exercise-1/) and [`exercise-2/`](exercise-2/) and are written in [Typst](https://typst.app).
 
 ```bash
 typst watch exercise-1/exercise-1.typ exercise-1.pdf
+typst watch exercise-2/exercise-2.typ exercise-2.pdf
 ```
 
-The [Compile Exercise 1](.github/workflows/compile-exercise-1.yml) workflow builds the PDF on push and deploys it to GitHub Pages.
+The [Compile Exercises](.github/workflows/compile-exercises.yml) workflow builds the PDFs on push and deploys them to GitHub Pages.

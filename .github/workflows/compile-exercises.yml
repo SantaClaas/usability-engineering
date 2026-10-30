@@ -1,17 +1,17 @@
-name: Compile Exercise 1
+name: Compile Exercises
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "exercise-1/**"
-      - ".github/workflows/compile-exercise-1.yml"
+      - "exercise-*/**"
+      - ".github/workflows/compile-exercises.yml"
   # Compile pull requests to catch errors, but only deploy from main
   pull_request:
     paths:
-      - "exercise-1/**"
-      - ".github/workflows/compile-exercise-1.yml"
+      - "exercise-*/**"
+      - ".github/workflows/compile-exercises.yml"
 
 # Required for actions/deploy-pages@v4 to obtain an OIDC token
 permissions:
@@ -31,23 +31,31 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Run compile
-        run: docker run --rm --mount type=bind,src="$PWD",dst=/work --workdir /work ghcr.io/typst/typst:latest compile exercise-1/exercise-1.typ exercise-1.pdf
+        run: |
+          for exercise in exercise-1 exercise-2; do
+            docker run --rm --mount type=bind,src="$PWD",dst=/work --workdir /work ghcr.io/typst/typst:latest compile "$exercise/$exercise.typ" "$exercise.pdf"
+          done
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v7
         with:
-          path: exercise-1.pdf
+          path: |
+            exercise-1.pdf
+            exercise-2.pdf
 
       - name: Prepare Pages artifact folder
         run: |
           mkdir -p dist
-          cp exercise-1.pdf dist/exercise-1.pdf
+          cp exercise-1.pdf exercise-2.pdf dist/
           # optional: make it easier to browse by adding a simple index page
           cat > dist/index.html <<'EOF'
           <!doctype html>
           <meta charset="utf-8" />
-          <title>Exercise 1</title>
-          <a href="exercise-1.pdf" download="exercise-1.pdf">exercise-1.pdf</a>
+          <title>Usability Engineering</title>
+          <ul>
+            <li><a href="exercise-1.pdf" download="exercise-1.pdf">exercise-1.pdf</a></li>
+            <li><a href="exercise-2.pdf" download="exercise-2.pdf">exercise-2.pdf</a></li>
+          </ul>
           EOF
 
       - name: Upload static files as artifact
@@ -59,7 +67,7 @@ jobs:
   deploy-pages:
     if: github.ref == 'refs/heads/main'
     environment:
-      name: exercise-1
+      name: github-pages
     runs-on: ubuntu-latest
     needs: compile-paper
     steps:
