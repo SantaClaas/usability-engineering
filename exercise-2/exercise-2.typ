@@ -50,18 +50,18 @@ Die physischen Bedienelemente erlauben auch eine Bedienung in nassen Umgebungen 
 Die rechteckige Form der Uhr macht es auch ergonomisch leichter die Knöpfe zu bedienen. Mit dem Zeigefinger und Daumen kann ähnlich einer Zange von beiden Seiten beim Drücken eines Knopfes Druck ausgeübt werden, sodass die Uhr vom verrutschen auf dem Arm abgehalten wird. Bei einer runden Form rutschen die Finger in dieser Haltung leichter ab.
 
 === Kognitive Ergonomie
-Die Liste der Funktionen aus dem ersten Design ist ersetzt durch Grid aus Icons für jede Funktion.
-Die Icons erlauben eine schnellere Wiedererkennung der Funktionen als Textelemente. Auf Text wird wegen des mangelnden Platzes auf dem kleinen Bildschirm verzichtet. Die Alternative wäre weniger Elemente auf dem Bildschirm anzuzeigen und so zusätzliche Interaktionen zu erfordern, um den Rest der Funktionen zu erreichen, oder den Text so klein zu gestalten, dass er weniger Platz einnimmt aber dadurch schwer bis nicht mehr lesbar wird.
+Die Grid-Icons erlauben eine schnellere Wiedererkennung der Funktionen als Textelemente. Auf Text wird wegen des mangelnden Platzes auf dem kleinen Bildschirm verzichtet. Die Alternative wäre weniger Elemente auf dem Bildschirm anzuzeigen und so zusätzliche Interaktionen zu erfordern, um den Rest der Funktionen zu erreichen, oder den Text so klein zu gestalten, dass er weniger Platz einnimmt aber dadurch schwer bis nicht mehr lesbar wird.
 Die Nutzung von Icons ohne Text erhöht auf Kosten der initialen Erlernbarkeit die Effizienz bei wiederkehrende Benutzung, da bei erster Benutzung die Icons noch unbekannt sein können und erst durch ausprobieren erlernt werden. Bei wiederkehrenden Benutzung jedoch können die Icons schneller gescant und erkannt werden als Text und so die Effizienz steigern.
 
-Statt eines Knopfes gibt es jetzt zwei Knöpfe und ein Krone, die als Scrollrad genutzt werden kann um alternativ zum Touchscreen durch die Benutzeroberfläche zu navigieren. Mit einem der Knöpfe kann nach Scrollen mit der Krone eine Funktion ausgewählt werden und mit dem anderen Knopf kann zum vorherigen Bildschirm zurückgekehrt werden.
-Ein bewegen des fingers über das Scrollrad nach unten scrollt "vorwärts". In einer Liste nach unten und folgt der Bewegung des Fingers und folgt damit dem mentalen Modell der Nutzenden.
+Ein bewegen des fingers über das Scrollrad nach unten scrollt "vorwärts". In einer Liste ist dies ein Scroll nach unten und folgt der Bewegung des Fingers und folgt damit dem mentalen Modell der Nutzenden. Das gleiche gilt umgekehrt auch für die andere Richtung.
+
+Die beiden Knöpfe für die Auswahl eines Elements und der Rückkehr zum vorherigen Bildschirm erlauben Nutzenden sich weniger an den Weg zu einem Menü erinnern zu müssen, da Fehler weniger Aufwand kosten und einfach durch eine Rückkehr in ein vorheriges Menü korrigiert werden können.
 
 Der runde Körper und Bildschirm der Smartwatch ist nun rechteckig mit abgerundeten Ecken um mehr Inhalte anzeigen zu können, da ein runder Bildschirm an den Rändern zu viel abschneiden muss wenn Text horizontal und vertikal verläuft. Dadurch ist die praktisch nutzbare Fläche der Benutzeroberfläche in der Elemente platziert und erkannt werden erhöht.
 
 == Benutzeroberfläche und Gestaltgesetze
-=== 1.
-=== 2.
-=== 3.
+=== 1. Gesetz der Nähe (Proximity)
+=== 2. Gesetz der Ähnlichkeit (Similarity)
+=== 3. Gemeinsames Schicksal (Common Fate)
 === 4.
 
