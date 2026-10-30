@@ -19,6 +19,12 @@
 #set text(lang: "de")
 
 = Usability Engineering -- Übung 2
+
+#figure(
+  image("smartwatch.png", width: 100%),
+  caption: [Skizze der überarbeiteten Smartwatch mit Benutzeroberfläche und Gestaltgesetzen],
+) <smartwatch>
+
 // Sie haben in der vergangenen Übung ein fiktive Smartwatch gestaltet, die keine gute Usability hat.
 
 //     Überarbeiten Sie den Entwurf (visuell und mit Beschriftung), so dass die Usability hoch ist. (2P)
