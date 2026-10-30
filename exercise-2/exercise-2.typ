@@ -61,7 +61,13 @@ Der runde Körper und Bildschirm der Smartwatch sind nun rechteckig mit abgerund
 
 == Benutzeroberfläche und Gestaltgesetze
 === 1. Gesetz der Nähe (Proximity)
+Die Nähe der Icons im Grid erlaubt Nutzenden zu erkennen, dass diese zusammengehören und ähnliches Verhalten aufweisen bei der Bedienung (Common Fate).
+
+In Menüs mit Überschriften ist zudem erkennbar welche Überschrift zu welchen Abschnitten gehört indem sie näher an denen Platziert sind als zu anderen Blöcken.
 === 2. Gesetz der Ähnlichkeit (Similarity)
+Da Überschriften gleich groß sind und Paragraphen und andere Bausteine unter ihnen eingerückt und/oder kleiner sind kann man eine Ähnlichkeit zwischen den Überschriften erkennen und so eine Gliederung erkennen um die Inhalte einfacher zu überfliegen.
+
 === 3. Gemeinsames Schicksal (Common Fate)
+Beim wischen durch das Menü oder beim Zurückkehren auf vorherige Bildschirme durch wischen von links nach rechts, lässt sich eine Zusammengehörigkeit erkennen, da die Elemente hier das Schicksal teilen gleichzeitig bewegt zu werden.
 === 4.
 
