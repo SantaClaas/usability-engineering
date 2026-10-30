@@ -61,16 +61,16 @@ Der runde Körper und Bildschirm der Smartwatch sind nun rechteckig mit abgerund
 
 == Benutzeroberfläche und Gestaltgesetze
 === 1. Gesetz der Nähe (Proximity)
-Die Nähe der Icons im Grid erlaubt Nutzenden zu erkennen, dass diese zusammengehören und ähnliches Verhalten aufweisen bei der Bedienung (Common Fate).
+Die Nähe der Icons im Grid lässt Nutzende erkennen, dass diese zusammengehören und sich bei der Bedienung ähnlich verhalten.
 
-In Menüs mit Überschriften ist zudem erkennbar welche Überschrift zu welchen Abschnitten gehört indem sie näher an denen Platziert sind als zu anderen Blöcken.
+In Menüs mit Überschriften ist zudem erkennbar, welche Überschrift zu welchem Abschnitt gehört, da sie näher an diesem platziert ist als an anderen Blöcken.
 === 2. Gesetz der Ähnlichkeit (Similarity)
-Da Überschriften gleich groß sind und Paragraphen und andere Bausteine unter ihnen eingerückt und/oder kleiner sind kann man eine Ähnlichkeit zwischen den Überschriften erkennen und so eine Gliederung erkennen um die Inhalte einfacher zu überfliegen.
+Da Überschriften gleich groß sind und Absätze sowie andere Bausteine unter ihnen eingerückt und/oder kleiner sind, kann man eine Ähnlichkeit zwischen den Überschriften und so eine Gliederung erkennen, wodurch sich die Inhalte einfacher überfliegen lassen.
 
 === 3. Gemeinsames Schicksal (Common Fate)
-Beim wischen durch das Menü oder beim Zurückkehren auf vorherige Bildschirme durch wischen von links nach rechts, lässt sich eine Zusammengehörigkeit erkennen, da die Elemente hier das Schicksal teilen gleichzeitig durch eine Animation bewegt werden.
+Beim Wischen durch das Menü oder beim Zurückkehren zu vorherigen Bildschirmen durch Wischen von links nach rechts lässt sich eine Zusammengehörigkeit erkennen, da die Elemente hier das gemeinsame Schicksal teilen, gleichzeitig durch eine Animation bewegt zu werden.
 
-=== 4. Gesetz der Kontinuität (Continuity)
-Icons und Elemente, die beim Scrollen am Bildschirmrand abgeschnitten werden können dank des Gesetzes der Kontinuität weiterhin erkannt und interpretiert werden. Dies zeigt Nutzenden auch an, dass z.B. in einem Menü scrollen möglich ist, wenn ein Element nur teilweise sichtbar ist. Ohne dies wäre eventuell nicht offensichtlich, dass gescrollt werden kann.
+=== 4. Gesetz der Kontinuität (Continuation)
+Icons und Elemente, die beim Scrollen am Bildschirmrand abgeschnitten werden, können dank des Gesetzes der Kontinuität weiterhin erkannt und interpretiert werden, ähnlich wie ein Objekt, das teilweise von einem anderen verdeckt wird. Dies zeigt Nutzenden auch an, dass z. B. in einem Menü Scrollen möglich ist, wenn ein Element nur teilweise sichtbar ist. Ohne diesen Hinweis wäre eventuell nicht offensichtlich, dass gescrollt werden kann.
 
 
