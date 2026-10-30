@@ -27,37 +27,37 @@
 
 // Die Abgabe erfolgt wieder als PDF im Moodle.
 
-Im Folgenden wird für die Übung 2 in Usability Engineering ein fiktives Smartwatch Design aus Übung 1 überarbetet, sodass die Usability verbessert ist.
+Im Folgenden wird für die Übung 2 in Usability Engineering ein fiktives Smartwatch-Design aus Übung 1 überarbeitet, sodass die Usability verbessert ist.
 
 == Änderungen
-Die Form der Smartwatch hat sich zu dem vorherigen Design aus Übung 1 zu einem rechteckigen Design geändert und somit auch der Bildschirm.
+Die Form der Smartwatch hat sich gegenüber dem vorherigen Design aus Übung 1 zu einem rechteckigen Design geändert und somit auch der Bildschirm.
 Dieser Bildschirm verfügt nun auch über eine Toucheingabe.
-An der Seite der Uhr befinden sich drei physische Bedienelemente von denen zwei Knöpfe sind und eins ein Scrollrad ähnlich einer Krohne an einer herkömmlichen Uhr.
+An der Seite der Uhr befinden sich drei physische Bedienelemente, von denen zwei Knöpfe sind und eines ein Scrollrad ähnlich der Krone einer herkömmlichen Uhr ist.
 
-In der Benutzeroberfläche wird statt einer Liste von Texteelmenten auf jeder Ebene zuerst ein Grid angezeigt, nachdem die Uhransicht durch eine Berührung des Bildschirms oder eines Knopfes geschlossen wurde.
+In der Benutzeroberfläche wird statt einer Liste von Textelementen auf jeder Ebene zuerst ein Grid angezeigt, nachdem die Uhransicht durch eine Berührung des Bildschirms oder eines Knopfes geschlossen wurde.
 In dem Grid werden die Funktionen durch Icons dargestellt und auf Text verzichtet. Tiefer in den Funktionen kann die Anzeige je nach Bedürfnissen unterschiedlich gestaltet werden und ist nicht mehr an eine Listenanzeige gebunden.
 
-Funktionen können entweder über den Touchbildschirm geöffnet werden oder über die Knöpfe. Das Scrollrad kann dabei genutzt werden um durch die Menüs wie dem Grid zu navigieren. Einzelne Elemente können dann mit einem Knopf geöffnet und mit dem anderen wieder geschlossen werden. Zusätzlich zu dem Scrollrad kann durch Wischen das Grid gescrollt werden.
-Ein Wischen vom linken Bildschirmrand nach rechts kehrt zu dem vorherigen Bildschirm zurück.
-Bei gleichzeitigem Auslösen von Touch und Knopfbedienung wird die Knopfbedienung priorisiert.
+Funktionen können entweder über den Touchbildschirm geöffnet werden oder über die Knöpfe. Das Scrollrad kann dabei genutzt werden, um durch die Menüs wie das Grid zu navigieren. Einzelne Elemente können dann mit einem Knopf geöffnet und mit dem anderen wieder geschlossen werden. Zusätzlich zum Scrollrad kann das Grid durch Wischen gescrollt werden.
+Ein Wischen vom linken Bildschirmrand nach rechts kehrt zum vorherigen Bildschirm zurück.
+Bei gleichzeitigem Auslösen von Touch- und Knopfbedienung wird die Knopfbedienung priorisiert.
 
 == Ergonomie
 === Physische Ergonomie
-An der Seite der Uhr wurde der kapazitive Knopf durch haptische mechanische Knöpfe ausgetauscht, sodass diese schwerer versehentlich ausgelöst werden können und unerwünscht Funktionen auslösen. Die Knöpfe haben ertastbare Kerbungen und können so einfacher gefunden werden. Die Größe der Knöpfe ist dabei an die Größe von Fingern wie dem Daumen angepasst und groß genug gestaltet, sodass nicht versehentlich mehrere Knöpfe gleichzeitig ausgelöst werden können.
+An der Seite der Uhr wurde der kapazitive Knopf durch haptische, mechanische Knöpfe ersetzt, sodass diese schwerer versehentlich ausgelöst werden und unerwünschte Funktionen starten können. Die Knöpfe haben ertastbare Kerbungen und können so einfacher gefunden werden. Die Größe der Knöpfe ist dabei an die Größe von Fingern wie dem Daumen angepasst und groß genug gestaltet, sodass nicht versehentlich mehrere Knöpfe gleichzeitig ausgelöst werden können.
 
-Die physischen Bedienelemente erlauben auch eine Bedienung in nassen Umgebungen wie im Regen oder am Waschbecken wo die Touchbedienung schneller versagen kann. Daher nimmt die Knopfbedienung immer Vorrang vor der der Touchbedienung falls beide im selben Moment ausgelöst wurden.
+Die physischen Bedienelemente erlauben auch eine Bedienung in nassen Umgebungen, wie im Regen oder am Waschbecken, wo die Touchbedienung schneller versagen kann. Daher hat die Knopfbedienung immer Vorrang vor der Touchbedienung, falls beide im selben Moment ausgelöst werden.
 
-Die rechteckige Form der Uhr macht es auch ergonomisch leichter die Knöpfe zu bedienen. Mit dem Zeigefinger und Daumen kann ähnlich einer Zange von beiden Seiten beim Drücken eines Knopfes Druck ausgeübt werden, sodass die Uhr vom verrutschen auf dem Arm abgehalten wird. Bei einer runden Form rutschen die Finger in dieser Haltung leichter ab.
+Die rechteckige Form der Uhr macht es auch ergonomisch leichter, die Knöpfe zu bedienen. Mit Zeigefinger und Daumen kann beim Drücken eines Knopfes, ähnlich einer Zange, von beiden Seiten Druck ausgeübt werden, sodass die Uhr am Verrutschen auf dem Arm gehindert wird. Bei einer runden Form rutschen die Finger in dieser Haltung leichter ab.
 
 === Kognitive Ergonomie
-Die Grid-Icons erlauben eine schnellere Wiedererkennung der Funktionen als Textelemente. Auf Text wird wegen des mangelnden Platzes auf dem kleinen Bildschirm verzichtet. Die Alternative wäre weniger Elemente auf dem Bildschirm anzuzeigen und so zusätzliche Interaktionen zu erfordern, um den Rest der Funktionen zu erreichen, oder den Text so klein zu gestalten, dass er weniger Platz einnimmt aber dadurch schwer bis nicht mehr lesbar wird.
-Die Nutzung von Icons ohne Text erhöht auf Kosten der initialen Erlernbarkeit die Effizienz bei wiederkehrende Benutzung, da bei erster Benutzung die Icons noch unbekannt sein können und erst durch ausprobieren erlernt werden. Bei wiederkehrenden Benutzung jedoch können die Icons schneller gescant und erkannt werden als Text und so die Effizienz steigern.
+Die Grid-Icons erlauben eine schnellere Wiedererkennung der Funktionen als Textelemente. Auf Text wird wegen des mangelnden Platzes auf dem kleinen Bildschirm verzichtet. Die Alternative wäre, weniger Elemente auf dem Bildschirm anzuzeigen und so zusätzliche Interaktionen zu erfordern, um den Rest der Funktionen zu erreichen, oder den Text so klein zu gestalten, dass er weniger Platz einnimmt, aber dadurch schwer bis gar nicht mehr lesbar wird.
+Die Nutzung von Icons ohne Text erhöht auf Kosten der initialen Erlernbarkeit die Effizienz bei wiederkehrender Benutzung, da die Icons bei der ersten Benutzung noch unbekannt sein können und erst durch Ausprobieren erlernt werden. Bei wiederkehrender Benutzung jedoch können die Icons schneller gescannt und erkannt werden als Text und so die Effizienz steigern.
 
-Ein bewegen des fingers über das Scrollrad nach unten scrollt "vorwärts". In einer Liste ist dies ein Scroll nach unten und folgt der Bewegung des Fingers und folgt damit dem mentalen Modell der Nutzenden. Das gleiche gilt umgekehrt auch für die andere Richtung.
+Ein Bewegen des Fingers über das Scrollrad nach unten scrollt "vorwärts". In einer Liste ist dies ein Scrollen nach unten, das der Bewegung des Fingers und damit dem mentalen Modell der Nutzenden folgt. Das Gleiche gilt umgekehrt auch für die andere Richtung.
 
-Die beiden Knöpfe für die Auswahl eines Elements und der Rückkehr zum vorherigen Bildschirm erlauben Nutzenden sich weniger an den Weg zu einem Menü erinnern zu müssen, da Fehler weniger Aufwand kosten und einfach durch eine Rückkehr in ein vorheriges Menü korrigiert werden können.
+Die beiden Knöpfe für die Auswahl eines Elements und die Rückkehr zum vorherigen Bildschirm führen dazu, dass sich Nutzende den Weg zu einem Menü weniger merken müssen, da Fehler weniger Aufwand kosten und einfach durch eine Rückkehr in ein vorheriges Menü korrigiert werden können.
 
-Der runde Körper und Bildschirm der Smartwatch ist nun rechteckig mit abgerundeten Ecken um mehr Inhalte anzeigen zu können, da ein runder Bildschirm an den Rändern zu viel abschneiden muss wenn Text horizontal und vertikal verläuft. Dadurch ist die praktisch nutzbare Fläche der Benutzeroberfläche in der Elemente platziert und erkannt werden erhöht.
+Der runde Körper und Bildschirm der Smartwatch sind nun rechteckig mit abgerundeten Ecken, um mehr Inhalte anzeigen zu können, da ein runder Bildschirm an den Rändern zu viel abschneiden muss, wenn Text horizontal und vertikal verläuft. Dadurch wird die praktisch nutzbare Fläche der Benutzeroberfläche, in der Elemente platziert und erkannt werden, vergrößert.
 
 == Benutzeroberfläche und Gestaltgesetze
 === 1. Gesetz der Nähe (Proximity)
