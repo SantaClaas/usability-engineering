@@ -68,6 +68,9 @@ In Menüs mit Überschriften ist zudem erkennbar welche Überschrift zu welchen 
 Da Überschriften gleich groß sind und Paragraphen und andere Bausteine unter ihnen eingerückt und/oder kleiner sind kann man eine Ähnlichkeit zwischen den Überschriften erkennen und so eine Gliederung erkennen um die Inhalte einfacher zu überfliegen.
 
 === 3. Gemeinsames Schicksal (Common Fate)
-Beim wischen durch das Menü oder beim Zurückkehren auf vorherige Bildschirme durch wischen von links nach rechts, lässt sich eine Zusammengehörigkeit erkennen, da die Elemente hier das Schicksal teilen gleichzeitig bewegt zu werden.
-=== 4.
+Beim wischen durch das Menü oder beim Zurückkehren auf vorherige Bildschirme durch wischen von links nach rechts, lässt sich eine Zusammengehörigkeit erkennen, da die Elemente hier das Schicksal teilen gleichzeitig durch eine Animation bewegt werden.
+
+=== 4. Gesetz der Kontinuität (Continuity)
+Icons und Elemente, die beim Scrollen am Bildschirmrand abgeschnitten werden können dank des Gesetzes der Kontinuität weiterhin erkannt und interpretiert werden. Dies zeigt Nutzenden auch an, dass z.B. in einem Menü scrollen möglich ist, wenn ein Element nur teilweise sichtbar ist.
+
 
