@@ -31,4 +31,7 @@
 Im Folgenden wird die favorisierte Technik zur Vermeidung für Cybersickness in VR beschrieben für Übung 3.
 
 == Technik
-Die für die Übung 3 favorisierte Technik zur reduzierung von Cybersickness ist eine Adaption der "Vehcile Motion Cues" in Apples Betriebsystemen
+Die für die Übung 3 favorisierte Technik zur reduzierung von Cybersickness ist eine Adaption der "Vehcile Motion Cues" in Apples Betriebsystemen @apple2024accessibility
+
+#pagebreak()
+#bibliography("references.bib", style: "apa")
