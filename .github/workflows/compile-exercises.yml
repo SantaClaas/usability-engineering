@@ -32,7 +32,7 @@ jobs:
 
       - name: Run compile
         run: |
-          for exercise in exercise-1 exercise-2; do
+          for exercise in exercise-1 exercise-2 exercise-3; do
             docker run --rm --mount type=bind,src="$PWD",dst=/work --workdir /work ghcr.io/typst/typst:latest compile "$exercise/$exercise.typ" "$exercise.pdf"
           done
 
@@ -42,11 +42,12 @@ jobs:
           path: |
             exercise-1.pdf
             exercise-2.pdf
+            exercise-3.pdf
 
       - name: Prepare Pages artifact folder
         run: |
           mkdir -p dist
-          cp exercise-1.pdf exercise-2.pdf dist/
+          cp exercise-1.pdf exercise-2.pdf exercise-3.pdf dist/
           # optional: make it easier to browse by adding a simple index page
           cat > dist/index.html <<'EOF'
           <!doctype html>
@@ -55,6 +56,7 @@ jobs:
           <ul>
             <li><a href="exercise-1.pdf" download="exercise-1.pdf">exercise-1.pdf</a></li>
             <li><a href="exercise-2.pdf" download="exercise-2.pdf">exercise-2.pdf</a></li>
+            <li><a href="exercise-3.pdf" download="exercise-3.pdf">exercise-3.pdf</a></li>
           </ul>
           EOF
 
